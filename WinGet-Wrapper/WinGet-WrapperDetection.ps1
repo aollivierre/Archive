@@ -1,4 +1,4 @@
-﻿# Soren Lundt - 22-02-2023
+# Soren Lundt - 22-02-2023
 # URL: https://github.com/SorenLundt/WinGet-Wrapper
 # License: https://raw.githubusercontent.com/SorenLundt/WinGet-Wrapper/main/LICENSE.txt
 # Detection script to check if desired application is installed and/or application up to date compared to WinGet.

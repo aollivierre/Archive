@@ -1,4 +1,4 @@
-﻿# Soren Lundt - 22-08-2023
+# Soren Lundt - 22-08-2023
 # URL: https://github.com/SorenLundt/WinGet-Wrapper
 # License: https://raw.githubusercontent.com/SorenLundt/WinGet-Wrapper/main/LICENSE.txt
 # Requirements script to check if desired application is installed. To be used when only wanting to update the application if already installed.  (UpdateOnly)
