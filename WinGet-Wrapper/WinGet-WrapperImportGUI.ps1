@@ -11,7 +11,7 @@
 # Version 1.0 - 12-02-2024 SorenLundt - Initial Version
 # Version 1.1 - 21-02-2024 SorenLundt - Fixed issue where only 1 package was imported to InTune (Script assumed there was just one row)
 
-# Greeting´
+# Greeting[U+00B4]
 write-host ""
 Write-Host "****************************************************"
 Write-Host "                  WinGet-Wrapper"
@@ -479,7 +479,7 @@ function ParseSearchResults($searchResult) {
     $searchResult -split "`n" | Where-Object { $_ -match $pattern } | ForEach-Object {
         $parsedName = $Matches[1].Trim()
         $parsedID = $Matches[2].Trim()
-        $parsedID = $parsedID -replace 'ÔÇª', ''  # Remove ellipsis character from ID
+        $parsedID = $parsedID -replace '[U+00D4][U+00C7][U+00AA]', ''  # Remove ellipsis character from ID
         $parsedVersion = $Matches[3].Trim()
 
         # Add parsed and cleaned data to the result
